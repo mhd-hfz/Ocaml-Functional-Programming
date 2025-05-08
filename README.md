@@ -1,9 +1,9 @@
-OCaml Functional Programming Coursework
+#OCaml Functional Programming Coursework
 
 This repository contains solutions for various problems related to functional programming in OCaml, focusing on list operations, recursion, and problem-solving with functional paradigms.
 
-Contents
-Question 1: List Operations and Predicates
+##Contents
+###Question 1: List Operations and Predicates
 
 Problem Overview: The task involves implementing common list operations such as filtering, folding, and predicate-based checking.
 
@@ -25,7 +25,7 @@ allSpec: Checks if all elements in the list satisfy a predicate.
 
 existsSpec: Checks if there exists an element that satisfies the predicate.
 
-Question 2: Sorting and List Operations
+###Question 2: Sorting and List Operations
 
 Problem Overview: The task involves sorting a list using a recursive approach.
 
@@ -39,7 +39,7 @@ check: Checks if a list contains a specific amount.
 
 run: Runs a series of jar manipulation moves and checks if any jar contains a specified amount of liquid.
 
-Question 3: State-Based Problem Solving
+###Question 3: State-Based Problem Solving
 
 Problem Overview: This question involves simulating the filling, draining, and transferring of liquids between jars and solving a problem by applying a series of operations.
 
@@ -53,8 +53,8 @@ check: Checks if a jar contains a certain amount of liquid after a series of mov
 
 solve: (To be implemented) Placeholder for solving a specific problem with the jar operations.
 
-Detailed Explanation
-Question 1: List Operations and Predicates
+##Detailed Explanation
+###Question 1: List Operations and Predicates
 filter p lst
 Filters a list lst by applying the predicate function p. Elements for which p returns true are included in the result.
 
@@ -79,7 +79,7 @@ Checks if every element in xs is a member of the list of elements that satisfy t
 existsSpec p xs
 Checks if there exists at least one element in xs that satisfies the predicate p and is a member of the list of elements satisfying p.
 
-Question 2: Sorting and List Operations
+###Question 2: Sorting and List Operations
 extractMin xs
 Finds the minimum element in the list xs and returns it along with the rest of the list.
 
@@ -92,7 +92,7 @@ Checks if any jar in the list contents holds the specified amount of liquid.
 run sizes amount moves
 Simulates a series of jar operations, checking if any jar contains the specified amount of liquid at the end.
 
-Question 3: State-Based Problem Solving
+###Question 3: State-Based Problem Solving
 doMove sizes contents move
 Performs a specified operation (fill, drain, or transfer) on a list of jars contents with the given sizes.
 
@@ -105,7 +105,7 @@ Checks if any jar contains the specified amount after a series of moves.
 solve sizes amount
 This function is a placeholder for solving a specific problem, like determining the steps to achieve a certain amount of liquid in a jar.
 
-Usage Instructions
+##Usage Instructions
 Compiling and Running OCaml Code:
 To run the code, you need OCaml installed on your machine. If you haven't installed it, follow the instructions on the official OCaml website: https://ocaml.org/.
 
