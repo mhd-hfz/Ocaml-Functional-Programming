@@ -1,4 +1,5 @@
 OCaml Functional Programming Coursework
+
 This repository contains solutions for various problems related to functional programming in OCaml, focusing on list operations, recursion, and problem-solving with functional paradigms.
 
 Contents
